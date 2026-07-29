@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import ToursView from "@/views/ToursView.vue";
-import TourSingleView from "@/views/TourSingleView.vue"; // ✅ Импортируем
+import TourSingleView from "@/views/TourSingleView.vue";
 
 Vue.use(VueRouter);
 
