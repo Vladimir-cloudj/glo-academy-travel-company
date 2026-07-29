@@ -7,7 +7,7 @@ SPA-приложение для просмотра каталога туров �
 
 | Главная страница | Страница тура | 
 |---|---|
-| <img src="/screenshots/main_menu.png" alt="Список всех туров" width="450" height="200"> | <img src="/screenshots/page_tour.jpg" alt="Детальная информация о туре" width="450" height="200"> |
+| <img src="/screenshots/main_menu.png" alt="Список всех туров" width="450" height="250"> | <img src="/screenshots/page_tour.jpg" alt="Детальная информация о туре" width="450" height="250"> |
 | *Список всех туров* | *Детальная информация о туре* |
 
 ## Реализованный функционал
