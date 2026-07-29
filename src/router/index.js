@@ -1,10 +1,15 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import ToursView from "@/views/ToursView.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/", component: () => import("@/views/ToursView.vue") },
+  {
+    path: "/",
+    name: "tours",
+    component: ToursView,
+  },
 ];
 
 const router = new VueRouter({
