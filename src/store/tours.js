@@ -1,4 +1,3 @@
-// src/store/tours.js
 import { v4 as uuidv4 } from "uuid";
 
 const tours = {
@@ -61,10 +60,7 @@ const tours = {
     ],
   },
   getters: {
-    // Получить все туры
     getAllTours: (state) => state.tours,
-
-    // Получить один тур по ID
     getTourById: (state) => (id) => {
       return state.tours.find((tour) => tour.id === id);
     },
