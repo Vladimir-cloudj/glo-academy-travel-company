@@ -107,19 +107,19 @@ src/
 
 В проекте используется глобальный фильтр `truncate` для форматирования текста:
 
-\`\`\`javascript
+```javascript
 // src/filters/index.js
 Vue.filter('truncate', (text, length = 400, suffix = '...') => {
   if (!text) return '';
   if (text.length <= length) return text;
   return text.substring(0, length) + suffix;
 });
-\`\`\`
+```
 
 **Использование в компонентах:**
-\`\`\`vue
+```vue
 {{ tour.description | truncate(400) }}
-\`\`\`
+```
 
 **Преимущества:**
 - Переиспользуемость во всех компонентах
