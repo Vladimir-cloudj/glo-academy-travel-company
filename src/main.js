@@ -6,6 +6,8 @@ import store from "./store";
 import "@/assets/css/bootstrap.min.css";
 import "@/assets/css/style.css";
 
+import "@/filters/index.js";
+
 Vue.config.productionTip = false;
 
 new Vue({

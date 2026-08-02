@@ -8,7 +8,7 @@
       >
       <h3>{{ tour.title }}</h3>
       <div class="description">
-        {{ tour.description }}
+        {{ tour.description | truncate(400) }}
         <br>
         <span>Читать далее ...</span>
       </div>
