@@ -108,7 +108,6 @@ src/
 В проекте используется глобальный фильтр `truncate` для форматирования текста:
 
 ```javascript
-// src/filters/index.js
 Vue.filter('truncate', (text, length = 400, suffix = '...') => {
   if (!text) return '';
   if (text.length <= length) return text;
